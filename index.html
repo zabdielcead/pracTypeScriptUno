@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="app.js"></script>
+    <script src="appDos.js"></script>
+    <script src="appTres.js"></script>
+    <script src="appCuatro.js"></script>
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script>
+        SystemJS.config({   
+                 baseURL: "/",
+                defaultJSExtensions: true  
+ 
+        });
+        SystemJS.import('appCinco.js');
+    </script>
+    
+</body>
+
+</html>
